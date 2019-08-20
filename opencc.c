@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "opencc/opencc.h"
+#include "opencc.h"
 
 const char *Convert(const char *input, const char *config) {
 	if(strlen(config) > 16) {
